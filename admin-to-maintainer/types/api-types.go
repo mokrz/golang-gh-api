@@ -123,3 +123,9 @@ type Plan struct {
 	Space        int    `json:"space,omitempty"`
 	PrivateRepos int    `json:"private_repos,omitempty"`
 }
+
+// CollaboratorPermission represents a collaborator's permission level
+type CollaboratorPermission struct {
+	Permission string `json:"permission"`
+	User       User   `json:"user"`
+}
