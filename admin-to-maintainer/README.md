@@ -1,0 +1,3 @@
+## Golang GitHub API Examples
+
+- `admin-to-maintainer` obtains a list of repositories for a given organization, iterates over each collaborator in each repository, and sets users with "admin" permission to "maintain". It uses the [list organization repositories](https://developer.github.com/v3/repos/#list-organization-repositories), [list collaborators](https://developer.github.com/v3/repos/collaborators/#list-collaborators), [review a users permission level](https://developer.github.com/v3/repos/collaborators/#review-a-users-permission-level) and the [add user as a collaborator](https://developer.github.com/v3/repos/collaborators/#add-user-as-a-collaborator) v3 API endpoints to do so.
